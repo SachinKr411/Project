@@ -1,0 +1,28 @@
+# Server port
+server:
+  port: 9095
+  
+ # Datasource Configuration
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: system
+    password: null
+    driver-class-name: org.h2.Driver
+ 
+ # H2 console Configuration
+  h2:
+    console:
+      enabled: true 
+      path: /h2-console
+    
+# View Resolve
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp 
+  
+# Jpa Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
