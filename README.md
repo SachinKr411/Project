@@ -1,1 +1,1 @@
-# Go to master Branch for latest upadate code.
+# Go to master Branch for latest update code.
